@@ -97,7 +97,7 @@ This creates the model for local use.
 
 **The model is live on Ollama**
 - So for a more straightforward approach;
-    - Ensure the Ollama app is downloaded on your
+    - Ensure the Ollama app is downloaded on your system
     - Then run 
         ```bash
         ollama run daniau23/lorafrica_gguf
