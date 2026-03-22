@@ -1,0 +1,27 @@
+# reference article https://docs.ollama.com/modelfile
+# 1. Path to base model
+FROM ./phi4_mini_instruct_q4_k_m.gguf
+
+# 2. Path to LoRA Adapter GGUF
+ADAPTER ./lorafrica_lora_adapter.gguf
+
+# 3. Set the needed parameters
+PARAMETER temperature 0.1
+PARAMETER num_predict 128
+PARAMETER num_ctx 2048
+PARAMETER stop "<|end|>"
+PARAMETER stop "<|user|>"
+PARAMETER stop "<|assistant>"
+
+# 4. Define Chat Template (optional, but recommended for best results)
+TEMPLATE """{{ if .System }}<|system|>
+{{ .System }}<|end|>
+{{ end }}{{ if .Prompt }}<|user|>
+{{ .Prompt }}<|end|>
+{{ end }}<|assistant|>
+{{ .Response }}<|end|>"""
+
+REQUIRES 0.18.2
+
+# 5. Set the default system message
+SYSTEM "You are a helpful AI assistant specialised in African history which gives concise answers to questions asked."
