@@ -95,7 +95,7 @@ ollama create LoRAfrica -f Modelfile
 ```
 This creates the model for local use.
 
-**The model is live on the Ollama**
+**The model is live on Ollama**
 - So for a more straightforward approach;
     - Ensure the Ollama app is downloaded on your
     - Then run 
