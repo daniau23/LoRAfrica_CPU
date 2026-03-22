@@ -88,13 +88,23 @@ For more details refer to [Huggingface Model Card](https://huggingface.co/DannyA
 
 ### **Ollama Users**
 For Ollama users to interact with the model
-Download and install Ollama
+- Download and install the Ollama app
 - In cmd run 
 ```bash
 ollama create LoRAfrica -f Modelfile
 ```
 This creates the model for local use.
 
+**The model is live on the Ollama**
+- So for a more straightforward approach;
+    - Ensure the Ollama app is downloaded on your
+    - Then run 
+        ```bash
+        ollama run daniau23/lorafrica_gguf
+        ```
+        - Then Model is ready for use locally on your system
+
+[Ollama Model File Link](https://ollama.com/daniau23/lorafrica_gguf)
 - Open Ollama, select the Model and HAVE FUN!!! 😊
 
 ## **Advice**
