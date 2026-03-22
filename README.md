@@ -104,7 +104,7 @@ This creates the model for local use.
         ```
         - Then Model is ready for use locally on your system
 
-[Ollama Model File Link](https://ollama.com/daniau23/lorafrica_gguf)
+[Ollama Model Link](https://ollama.com/daniau23/lorafrica_gguf)
 - Open Ollama, select the Model and HAVE FUN!!! 😊
 
 ## **Advice**
