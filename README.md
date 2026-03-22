@@ -1,4 +1,7 @@
 # **LoRAfrica_GGUF: LLMs on Consumer's CPU Systems**
+![LoRAfrica_Scaling_LLM Fine_Tuning_for_African_History.jpg](img/LoRAfrica_Deployment.jpg)
+
+This is the first phase of LoRAfrica Deployment; Making it readily available for consumer's CPU
 
 ## **Aim**
 Run LLMs on laptops with only cpu
