@@ -14,7 +14,6 @@ Run LLMs on laptops with only cpu
 git clone https://github.com/daniau23/LoRAfrica_GGUF.git
 ```
 or just download the repo and unzip it
-- Rename llama_cpp to llama.cpp
 - Download and install &nbsp;[Anaconda](https://www.anaconda.com/products/distribution#Downloads)
     - Once Conda is installed, open your CMD and run the following command `C:/Users/your_system_name/anaconda3/Scripts/activate`
     - Should see something like `'(anaconda3)'C:\Users\your_system_name\Desktop\>` as an output in your CMD
