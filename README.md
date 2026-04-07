@@ -14,7 +14,7 @@ Run LLMs on laptops with only cpu
 - Navigate to your desktop and create a new folder called `llm_cpu` 
 - Install Git and clone the repo using 
 ```bash
-git clone https://github.com/daniau23/LoRAfrica_GGUF.git
+git clone https://github.com/daniau23/LoRAfrica_CPU.git
 ```
 or just download the repo and unzip it
 - Download and install &nbsp;[Anaconda](https://www.anaconda.com/products/distribution#Downloads)
